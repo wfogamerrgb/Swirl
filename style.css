@@ -8,10 +8,16 @@ body{
   
   
 }
-footer{
-  position: absolute;
-  bottom: 30px;
+.boxy{
+
   background:rgba(230, 248, 252, 0.749);
+  padding:15px;
+  border-radius:15px;
+}
+footer{
+  position: sticky;
+  bottom: 30px;
+  background:rgba(230, 248, 252, 0.949);
   padding:15px;
   border-radius:15px;
 }
@@ -37,6 +43,7 @@ footer{
 }
 #Logo:hover{
   background:rgb(249, 216, 252,0.8);
+  box-shadow: 7px 3px 3px rgb(236, 63, 255,0.7);
 }
 #Logo button{
   border:none;
@@ -44,6 +51,7 @@ footer{
   background:rgb(249, 216, 252,0.5);
   padding:5px;
   border-radius:10px;
+
 }
 #swirly{
   border-radius:15px;
