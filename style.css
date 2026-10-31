@@ -8,6 +8,14 @@ body{
   
   
 }
+#centerthis{
+  padding:15px;
+  line-height:300px;
+  text-align: center;
+  font-size:100px;
+  background-color:rgb(197, 255, 254);
+  border-radius:20px;
+}
 .boxy{
 
   background:rgba(230, 248, 252, 0.749);
