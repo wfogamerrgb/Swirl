@@ -1,9 +1,54 @@
 body{
-  background:rgba(188, 240, 252, 0.851)
+  background:rgba(188, 240, 252, 0.851);
+  padding:45px;
 }
 #swirl{
   height:100px;
   width:100px;
   
   
+}
+footer{
+  position: absolute;
+  bottom: 30px;
+  background:rgba(230, 248, 252, 0.749);
+  padding:15px;
+  border-radius:15px;
+}
+#Links{
+
+  padding:15px;
+  background:rgba(230,248,252,0.85);
+  border-radius:20px;
+  
+}
+#Links:hover{
+  background:rgba(230,248,252,1);
+  
+}
+#Logo{
+  position:absolute;
+  top:35px;
+  right:30px;
+  padding:10px;
+  color:rgb(246, 169, 255);
+  background:rgb(249, 216, 252,0.5);
+  border-radius:15px;
+}
+#Logo:hover{
+  background:rgb(249, 216, 252,0.8);
+}
+#Logo button{
+  border:none;
+  color:rgb(246, 169, 255);
+  background:rgb(249, 216, 252,0.5);
+  padding:5px;
+  border-radius:10px;
+}
+#swirly{
+  border-radius:15px;
+
+  width:50px;
+  height:50px;
+
 }
